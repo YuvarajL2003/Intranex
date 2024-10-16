@@ -16,7 +16,7 @@
 .register-now img{
     display: inline-block;
     box-shadow: 0 0 30px orangered;
-    padding: 10px 50px;
+    padding: 20px 50px;
     border-radius: 400px 0 400px 0px;
     outline: none;
     background: linear-gradient(to right, rgb(0, 191, 255),orangered);
@@ -52,7 +52,7 @@
 #days{
    
     
-    background: url('/img/dragon.af69704b141b14d7b0db.png') no-repeat;
+    background: no-repeat;
     background-size: cover;
     padding: 27px;
     margin-right:5px;
@@ -61,7 +61,7 @@
 
 #hours {
     
-    background: url('/img/data_image_jpeg;bas….jpeg') no-repeat;
+    background:  no-repeat;
     background-size: cover;
     padding: 22px;
     border-radius: 50%;
@@ -71,7 +71,7 @@
 
 #minutes {
     
-    background: url('/img/house.3e840f760ac6801caf77.jpeg') no-repeat;
+    background:  no-repeat;
     background-size: cover;
     padding: 20px;
     margin-right:5px;
@@ -82,7 +82,7 @@
 
 #seconds {
 
-    background: url('/img/raven.bd57c5454e1b7855cdd3.png') no-repeat;
+    background:  no-repeat;
     background-size: cover;
     padding:32px;
     margin-right:5px;
@@ -131,6 +131,7 @@
     background:radial-gradient(red,orangered,black);
     border-radius: 50px 0 ;
     text-shadow: 0 0 15px white;
+    
 }
 .reg:hover{
     border-radius: 0 50px ;
@@ -316,7 +317,7 @@
 
 
 
-@media (max-width:380px){
+@media (max-width:680px){
 
     *{
         box-sizing: border-box;
@@ -382,7 +383,8 @@
         border-radius:50px;
         flex-shrink: 2;
         margin:150px 20px 100px;
-        width:300px;
+        
+        
         
     }
     .event{
@@ -394,15 +396,15 @@
 
     }
     .event-content{
-        font-size:20px;
+        font-size:26px;
         padding: 50px 30px;
         text-indent: 80px;
         text-align:justify;
     }
     .event img{
         
-        width: 300px;
-        height:400px;
+        width: 500px;
+        height:500px;
         align-items: center;
         margin-top: 20px;
         padding: 20px;
@@ -412,10 +414,10 @@
     }
 
     .img{
-        height:350px;
-        float: left;
-        animation:logo linear  0.9s infinite;
         
+        animation:logo linear  0.9s infinite;
+        width: 100%;
+        text-align: center;
     }
     
     
@@ -438,7 +440,7 @@
     
     .title{
         text-align: center; 
-        font-size: 30px;
+        font-size: 50px;
         margin-bottom: 40px;
         display: flex;
         align-items: center;
@@ -460,7 +462,7 @@
         justify-content: center;
     }
     .begine .beg{
-        width: 150px;
+        width: 250px;
         height:100px;
     }
     .cerbo{
@@ -472,7 +474,7 @@
         width:100%;
     }
     .cerbo img{
-       width:330px;
+       width:480px;
     
     }
     #countdown {
@@ -480,21 +482,18 @@
         border-radius:50px;
         text-align: center;
         background-color:rgb(220, 220, 220,0.6);
-        width:345px;
-        position: relative;
-        height: 110px;
+        margin: 0 20px;
+        width:500px;
     }
     
     #days{
        
-        position: absolute;
+        
         background: url('/img/dragon.af69704b141b14d7b0db.png') no-repeat;
         background-size: cover;
         padding: 27px;
         margin-right:5px;
         border-radius: 50%;
-        left: 0;
-        top: 9px;
     }
     
     #hours {
@@ -504,9 +503,6 @@
         padding: 22px;
         border-radius: 50%;
         margin-right:5px;
-        top:12px;
-        left:90px;
-        position: absolute;
         
     }
     
@@ -517,8 +513,7 @@
         padding: 20px;
         margin-right:5px;
         border-radius: 50%;
-        position: absolute;
-        top:13px;
+        
     
     }
     
@@ -528,9 +523,7 @@
         background-size: cover;
         padding:32px;
         border-radius: 50%;
-        position: absolute;
-        right: 0;
-        top: 9px;
+       
     
     }
     
@@ -543,12 +536,11 @@
     .register-now{
         width:100%;
         text-align: center;
-        padding:0px;
         margin-top: 70px;
+    
     }
     .register-now img{
-        width:300px;
-        height: 80px;
+        width:500px;
         
     }
     .nav-overlay{
@@ -585,17 +577,7 @@
         text-align: center;
     }
     .title h1{
-      font-size: 50px;  
-    }
-
-    .register-now img{
-        
-        display: inline-block;
-        box-shadow: 0 0 30px orangered;
-        padding: 20px 50px;
-        border-radius: 400px 0 400px 0px;
-        outline: none;
-        background: linear-gradient(to right, rgb(0, 191, 255),orangered);
+      font-size: 80px;  
     }
     
 
