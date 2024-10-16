@@ -320,13 +320,19 @@
 
     *{
         box-sizing: border-box;
+        padding: 0;
+        margin: 0;
     }
 
 
-    .container{
+    body{
         width: 100vw;
         height: 100vh;
-        
+    }
+    
+    .content{
+      width:560px;
+      
     }
     .content-1{
         color:white; 
@@ -338,7 +344,8 @@
         flex-flow: row wrap;
         border-radius:50px;
         flex-shrink: 2;
-        margin:150px 50px 60px;
+        margin:150px 20px;
+        width: 500px;
         
     }
     .event{
@@ -357,14 +364,13 @@
     }
     .event.img{
         
-        width:100%;
+        
         height:200px;
         align-items: center;
-        margin-left: 100px;
         margin-top: 20px;
         padding: 20px;
         text-align: center;
-        display: block;
+        
         
     }
     
@@ -374,11 +380,11 @@
        position: fixed;
        top: 0;
        left: 0;
-       width: 100vw;
+       width: 100%;
        display: flex;
        object-fit: cover; /* Ensures the video covers the entire container */
        z-index: -1;
-       height: 100vh;
+       height: 100%;
        
     }
     #myVideo{
@@ -402,7 +408,7 @@
     
     }
     .content-2{
-        width: 100vw;
+        width:100%;
     }
     .begine{
         display: flex;
@@ -418,9 +424,10 @@
         margin-top:40px;
         flex-direction: column;
         align-items: center;
+        width:100%;
     }
     .cerbo img{
-       width: 500px;
+       width:450px;
     
     }
     #countdown {
@@ -429,6 +436,7 @@
         text-align: center;
         background-color:rgb(220, 220, 220,0.6);
         margin: 0 20px;
+        width: 500px;
     }
     
     #days{
@@ -467,7 +475,6 @@
         background: url('/img/raven.bd57c5454e1b7855cdd3.png') no-repeat;
         background-size: cover;
         padding:32px;
-        margin-right:5px;
         border-radius: 50%;
        
     
@@ -480,12 +487,41 @@
     
     }
     .register-now{
-        width:100vw;
+        width:100%;
         text-align: center;
         margin-top: 70px;
     }
     .register-now img{
-        width: 550px;
+        width: 500px;
     }
+    .nav-overlay{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter:blur(2px);
+        visibility: hidden;
+        opacity: 0;
+        background-color: rgpa(0,0,0,0.2);
+        transition: 0.3s;
+    }
+    .open .nav-overlay{
+        visibility: visible;
+        opacity: 1;
+    }
+    .links{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 250px;
+        z-index: 2;
+        background-color:rgb(255, 69, 0,0.3);
+        transform: translateX(-250px);
+        transition: 0.5s;
+    
+    }
+    
 
 }
