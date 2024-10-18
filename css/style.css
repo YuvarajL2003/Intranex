@@ -485,7 +485,7 @@
         text-align: center;
         background-color:rgb(220, 220, 220,0.6);
         position: relative;
-        width:342px;
+        width:365px;
         height: 115px;
     }
     
@@ -580,12 +580,25 @@
         top: 0;
         left: 0;
         height: 100%;
-        width: 250px;
+        width: 200px;
         z-index: 2;
         background-color:rgb(255, 69, 0,0.3);
         transform: translateX(-250px);
         transition: 0.5s;
     
+    }
+
+    .reg{
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background:radial-gradient(red,orangered,black);
+        border-radius: 50px 0 ;
+        text-shadow: 0 0 15px white;
+        
+    }
+    .reg:hover{
+        border-radius: 0 50px ;
+        text-shadow: 0 0 15px black;
     }
 
     .countdown-1{
