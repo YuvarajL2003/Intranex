@@ -594,6 +594,7 @@
         background:radial-gradient(red,orangered,black);
         border-radius: 50px 0 ;
         text-shadow: 0 0 15px white;
+        font-weight: bold;
         
     }
     .reg:hover{
