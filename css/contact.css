@@ -529,12 +529,7 @@
 
     border-radius:20px 20px 0 0;
 }
-.con-2 .logo img{
-    width:350px;
-    height:350px;
-    animation: move 0.6s linear infinite;
-    
-}
+
 
 @keyframes move {
     0%{
@@ -562,6 +557,8 @@
 .con-2 .logo img{
     width:280px;
     height:280px;
+    animation: move 0.6s linear infinite;
+
     
 }
 .con-2 .logo{
@@ -629,12 +626,23 @@
     margin:50px;
 }
 .developed h2{
-    font-size:30px;
+    font-size:28px;
     background: linear-gradient(to right,orangered,blue);
     color:transparent;
     background-clip: text;
+    text-shadow: 0 0 30px snow;
 }
 
+.con-2 .logo img{
+    width:250px;
+    height:250px;
+    
+}
+.con-2 .logo{
+    width: 100%;
+    text-align: center;
+    margin:50px ;
+}
 
 
 
